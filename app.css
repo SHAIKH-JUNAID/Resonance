@@ -1,0 +1,87 @@
+body {
+  background: #ffffff;
+  font-family: "Playfair Display", serif;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+  color: #014871;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #561139;
+}
+
+#mainNavbar .navbar-brand {
+  color: #561139;
+  font-size: 1.5rem;
+}
+
+.navbar.scrolled {
+  background: #e8f5c8;
+  transition: background 500ms;
+}
+
+#showcase {
+  background: url("images/daniele-levis-pelusi-mkMSXR86kYY-unsplash.jpg") top
+    center / cover no-repeat;
+  min-height: 120px;
+}
+
+h1 {
+  color: #561139;
+  line-height: 1;
+}
+
+h3 {
+  color: #561139;
+  line-height: 1;
+}
+
+h5 {
+  font-weight: 700;
+  line-height: 1;
+}
+
+#open {
+  font-size: 1rem;
+  border-radius: 2rem;
+}
+
+#color {
+  color: #561139;
+}
+
+#color1 {
+  color: #014871;
+}
+
+#footer {
+  background-color: #e8f5c8;
+}
+
+.btns:hover {
+  background-color: #e8f5c8;
+}
+
+/* @media (min-width: 576px) {
+  .btns {
+    margin-left: 35px;
+  }
+} */
+
+@media (max-width: 768px) {
+  .house {
+    font-size: 3rem;
+  }
+}
+
+/* @media (max-width: 576px) {
+  .house {
+    font-size: 3rem;
+  }
+}  */
